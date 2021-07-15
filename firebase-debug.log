@@ -1,0 +1,50 @@
+[debug] [2021-07-15T09:32:56.124Z] ----------------------------------------------------------------------
+[debug] [2021-07-15T09:32:56.127Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\K.MOHAMED RAFEEQ\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-15T09:32:56.127Z] CLI Version:   9.16.0
+[debug] [2021-07-15T09:32:56.127Z] Platform:      win32
+[debug] [2021-07-15T09:32:56.128Z] Node Version:  v14.5.0
+[debug] [2021-07-15T09:32:56.129Z] Time:          Thu Jul 15 2021 15:02:56 GMT+0530 (India Standard Time)
+[debug] [2021-07-15T09:32:56.129Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-15T09:32:56.235Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-15T09:32:56.235Z] > authorizing via signed-in user (mohamedhasim.official@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\angular\whatsapp
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whatsapp-hasim. 
+[debug] [2021-07-15T09:33:16.837Z] > refreshing access token with scopes: []
+[debug] [2021-07-15T09:33:16.838Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-15T09:33:18.939Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 15 Jul 2021 09:33:18 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-15T09:33:19.115Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-hasim [none]
+[debug] [2021-07-15T09:33:19.993Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-hasim 200
+[debug] [2021-07-15T09:33:19.996Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-hasim {"projectId":"whatsapp-hasim","projectNumber":"961863371480","displayName":"whatsapp-hasim","name":"projects/whatsapp-hasim","resources":{"hostingSite":"whatsapp-hasim"},"state":"ACTIVE"}
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\angular\whatsapp\dist\whatsapp is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1060046190&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
